@@ -4,9 +4,9 @@ MAINTAINER Clebio Vieira
 ENV classe $SOURCEFILE
 
 #COPY Run.java .
-COPY $classe .
+COPY classe .
 
-RUN javac $classe
+RUN javac classe
 
 CMD ["java","Run"]
 
