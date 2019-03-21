@@ -5,6 +5,6 @@ ENV file README.md
 
 RUN mkdir teste
 
-COPY file /teste
+COPY README.md /teste
 
 
