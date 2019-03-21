@@ -1,11 +1,12 @@
 FROM maven:3.6.0-jdk-8-alpine
 MAINTAINER Clebio Vieira
 
-#COPY README.md /teste
+ENV classe $SOURCEFILE
 
-COPY Run.java .
+#COPY Run.java .
+COPY classe .
 
-RUN javac Run.java
+RUN javac classe
 
 CMD ["java","Run"]
 
