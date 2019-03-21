@@ -1,8 +1,6 @@
 FROM hello-world:latest
 MAINTAINER Clebio Vieira
 
-ARG sourcefile=README.md
-
-ENV file=$sourcefile
+ENV file $SOURCEFILE
 
 COPY file /etc
