@@ -6,3 +6,5 @@ ENV file README.md
 RUN mkdir /teste
 
 COPY $file /teste
+
+WORKDIR /
