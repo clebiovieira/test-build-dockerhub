@@ -1,6 +1,6 @@
 FROM hello-world:latest
 MAINTAINER Clebio Vieira
 
-ENV file $SOURCEFILE
+ENV file README.md
 
-COPY file /etc
+COPY file /etc/README.txt
