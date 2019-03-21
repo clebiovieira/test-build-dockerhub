@@ -3,8 +3,8 @@ MAINTAINER Clebio Vieira
 
 ENV file README.md
 
-RUN mkdir /teste
+RUN mkdir teste
 
-COPY $file /teste
+COPY file /teste
 
-WORKDIR /
+
