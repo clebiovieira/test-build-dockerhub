@@ -7,6 +7,8 @@ RUN echo $classe
 
 COPY Run.java .
 #COPY $classe .
+
+
 RUN javac Run.java
 
 CMD ["java","Run"]
