@@ -4,6 +4,7 @@ MAINTAINER Clebio Vieira
 #ENV classe $SOURCEFILE
 #RUN echo $classe
 #COPY $classe .
+
 COPY Run.java .
 
 RUN javac Run.java
